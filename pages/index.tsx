@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 import ContactForm from '../components/ContactForm'
 import Description from '../components/Description'
 import Documments from '../components/Documents'
@@ -18,8 +19,8 @@ export default function Home() {
       <Banner/>
       <Description/>
       <Documments/>
-      <ContactForm/>
       <Fees/>
+      <Contact/>
       <Footer/>
     </div>
   )
