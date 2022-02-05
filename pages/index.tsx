@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 import Description from '../components/Description'
 import Documments from '../components/Documents'
 import Fees from '../components/Fees'
