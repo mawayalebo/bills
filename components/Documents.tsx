@@ -1,7 +1,7 @@
 
 function Documments() {
     return ( 
-        <div>
+        <section id="documents">
             <div className="bg-white rounded-3xl">
                 <div className="flex m-5 justify-center">
                     <h2 className="text-gray-600 font-black text-md">What documens do we need?</h2>
@@ -45,7 +45,7 @@ function Documments() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
      );
 }
 

@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
     return ( 
-        <section>
+        <section id="contact">
             <div className="flex items-center flex-col">
                 <div className="px-10 md:px-15 bg-blue-800 rounded-full flex justify-start m-2 flex-1">
                     <h2 className="text-xl font-bold text-white ">Contact Us</h2>
