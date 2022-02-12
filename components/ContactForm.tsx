@@ -1,7 +1,7 @@
 function ContactForm() {
-    //contact us form component
+    
     return ( 
-        <form >
+        <form>
             <div className="flex flex-col p-5 md:p-10 rounded-3xl shadow-md w-full bg-white">
                 <div className="flex flex-1 items-center rounded-full ring ring-black px-3 md:px-10 py-2  m-2  md:space-x-5 overflow-hidden">
                     <label htmlFor="email" className="font-semibold whitespace-nowrap">Email : </label>
