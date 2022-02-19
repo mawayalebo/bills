@@ -1,6 +1,7 @@
 import ContactForm from "./ContactForm";
 
 function Contact() {
+    
     return ( 
         <section id="contact">
             <div className="flex items-center flex-col">
