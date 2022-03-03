@@ -24,14 +24,12 @@ function ContactForm() {
                 },
                 body: JSON.stringify(data)
               })
-            setError([])
+            setError([""])
             setName("") 
             setEmail("")
             setMessage("")
         }
         console.log('Sending')
-      
-     
     }
     return ( 
         <form>
