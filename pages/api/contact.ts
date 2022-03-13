@@ -3,14 +3,14 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.email,
-    pass: process.env.password
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD
   }
 });
 const message = `${req.body.message} Contact Information - ${req.body.email}`
 var mailOptions = {
-  from: `${req.body.name} <${req.body.email}>`,
-  to: process.env.email,
+  from: req.body.email,
+  to: process.env.EMAIL,
   subject: `MESSAGE FROM BILLS HUB CLIENT- ${req.body.name}`,
   text: message
 };
